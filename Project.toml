@@ -1,0 +1,4 @@
+name = "AISHBenchmark"
+uuid = "424292a9-e283-420d-a1f4-4edc3f6673fe"
+authors = ["Marcell <havlikmarcell@gmail.com>"]
+version = "0.1.0"
