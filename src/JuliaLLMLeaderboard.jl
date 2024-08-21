@@ -39,7 +39,7 @@ function run_generic_benchmark(definition_file::String)
     ai_state = initialize_ai_state()
     user_question = definition["prompt"]
     println(user_question)
-    push!(cur_conv_msgs(ai_state), Message(now(), :user, user_question))
+    push!(curr_conv_msgs(ai_state), Message(now(), :user, user_question))
   
     conversation = anthropic_ask_safe(ai_state, return_all=true)
   

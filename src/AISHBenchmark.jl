@@ -8,7 +8,7 @@ using DataStructures: OrderedDict
 using Anthropic
 using TOML
 
-using AISH: initialize_ai_state, cur_conv_msgs, anthropic_ask_safe
+using AISH: initialize_ai_state, curr_conv_msgs, anthropic_ask_safe
 using AISH: Message
 
 using JuliaLLMLeaderboard: find_definitions
